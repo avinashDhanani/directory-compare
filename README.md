@@ -19,8 +19,9 @@
   dir="auto"
 >
   <pre>
+    
     const compare_folders_path = require("folder-compare");
-  
+
     (async () => {
       let data = await compare_folders_path("start_file", "updated_file");
       console.log("data : ", data);
