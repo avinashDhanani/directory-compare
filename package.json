@@ -1,0 +1,24 @@
+{
+  "name": "folder-compare",
+  "version": "1.0.0",
+  "description": "This package help to compare two directory and identify added, updated, and deleted file list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinashDhanani/directory-compare.git"
+  },
+  "keywords": [
+    "directory-compare",
+    "dir-compare",
+    "folder-compare"
+  ],
+  "author": "avinash_dhanani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avinashDhanani/directory-compare/issues"
+  },
+  "homepage": "https://github.com/avinashDhanani/directory-compare#readme"
+}
