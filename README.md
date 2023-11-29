@@ -13,9 +13,7 @@
   class="highlight highlight-source-js notranslate position-relative overflow-auto"
   dir="auto"
 >
-  <pre>
     <code>npm i folder-compare</code>
-  </pre>
   <div class="zeroclipboard-container position-absolute right-0 top-0">
     <clipboard-copy
       aria-label="Copy"
