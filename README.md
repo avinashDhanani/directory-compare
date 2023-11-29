@@ -12,7 +12,7 @@
 
 <p>need to create tow folder name "start_file" and "update_file" at root directory</p>
 <p>inside first folder put your old folder or file list</p>
-<p>inside second folder put your updated file list</p>
+<p>inside second folder put your updated folder or file list</p>
 
 <div
   class="highlight highlight-source-js notranslate position-relative overflow-auto"
@@ -75,6 +75,11 @@ const compare_folders_path = require("folder-compare")
     </clipboard-copy>
   </div>
 </div>
+
+<p>compare_folders_path() function return arr that include [addedFileList, deletedFileList, diffInFileList]</p>
+<p><b>addedFileList</b> : newly created file list</p>
+<p><b>deletedFileList</b> : deleted file list</p>
+<p><b>diffInFileList</b> : update file data list</p>
 
 
 
