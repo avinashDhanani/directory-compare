@@ -33,13 +33,12 @@
       class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay"
       data-copy-feedback="Copied!"
       data-tooltip-direction="w"
-      value="
-const compare_folders_path = require("folder-compare")
-      
+      value={"
+const compare_folders_path = require(\"folder-compare\") 
 (async () => {
-  let data = await compare_folders_path("start_file", "update_file")
-  console.log("data : ", data)
-})()"
+  let data = await compare_folders_path(\"start_file\", \"update_file\")
+  console.log(\"data : \", data)
+})()"}
       tabindex="0"
       role="button"
     >
