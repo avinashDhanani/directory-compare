@@ -19,15 +19,14 @@
   dir="auto"
 >
   <pre>
-    
-    <span class="pl-k">const</span> compare_folders_path <span class="pl-c1">=</span> require("folder-compare");
-    
-    (async () <span class="pl-c1">=></span> {
-      let data <span class="pl-c1">=</span> await compare_folders_path("start_file", "updated_file");
+    const compare_folders_path = require("folder-compare");
+  
+    (async () => {
+      let data = await compare_folders_path("start_file", "updated_file");
       console.log("data : ", data);
     })();
-  </pre>
  
+  </pre>
 </div>
 
 <p>compare_folders_path() function return arr that include [addedFileList, deletedFileList, diffInFileList]</p>
